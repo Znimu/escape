@@ -4,7 +4,7 @@
         <title>Projet Résumé Mois 1</title>
 				<meta charset="UTF-8">
         <link rel='stylesheet' href="css/style.css" />
-				<link href="http://fonts.googleapis.com/css?family=Lato:200,400" rel="stylesheet" type="text/css">
+				<link href="http://fonts.googleapis.com/css?family=Lato:150,400" rel="stylesheet" type="text/css">
 				<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
     </head>
     <body>
@@ -13,7 +13,9 @@
 						<img src="img/img_header.jpg" width="100%" />
 					</div>
 					
-					<div class="title_site"><i class="fas fa-paper-plane"></i> ESCAPE</div>
+					<div class="title_site">
+						<i class="fas fa-paper-plane"></i> ESCAPE
+					</div>
 			
 					<div>
 						<ul class="liste_menu">
@@ -61,7 +63,7 @@
 					<div class="area3_main">
 						<div class="area3_main_area">
 							<div class="float_left-img_little">
-								<i class="fas fa-male"></i>
+								<i class="fas fa-male circle-icon"></i>
 							</div>
 							<h4>Branding & Identity</h4>
 							<p>Postremo ad id indignitatis est ventum, ut cum peregrini ob formidatam haut ita dudum alimentorum inopiam.</p>
@@ -69,7 +71,7 @@
 						
 						<div class="area3_main_area">
 							<div class="float_left-img_little">
-								<i class="fas fa-pencil-alt"></i>
+								<i class="fas fa-pencil-alt circle-icon"></i>
 							</div>
 							<h4>Web & Graphic Design</h4>
 							<p>Postremo ad id indignitatis est ventum, ut cum peregrini ob formidatam haut ita dudum alimentorum inopiam.</p>
@@ -77,7 +79,7 @@
 						
 						<div class="area3_main_area">
 							<div class="float_left-img_little">
-								<i class="fas fa-mobile-alt"></i>
+								<i class="fas fa-mobile-alt circle-icon"></i>
 							</div>
 							<h4>Mobile App Development</h4>
 							<p>Postremo ad id indignitatis est ventum, ut cum peregrini ob formidatam haut ita dudum alimentorum inopiam.</p>
@@ -85,7 +87,7 @@
 						
 						<div class="area3_main_area">
 							<div class="float_left-img_little">
-								<i class="fas fa-images"></i>
+								<i class="fas fa-images circle-icon"></i>
 							</div>
 							<h4>Animations</h4>
 							<p>Postremo ad id indignitatis est ventum, ut cum peregrini ob formidatam haut ita dudum alimentorum inopiam.</p>
@@ -93,7 +95,7 @@
 						
 						<div class="area3_main_area">
 							<div class="float_left-img_little">
-								<i class="fas fa-star-half-alt"></i>
+								<i class="fas fa-star-half-alt circle-icon"></i>
 							</div>
 							<h4>UI / UX</h4>
 							<p>Postremo ad id indignitatis est ventum, ut cum peregrini ob formidatam haut ita dudum alimentorum inopiam.</p>
@@ -101,7 +103,7 @@
 						
 						<div class="area3_main_area">
 							<div class="float_left-img_little">
-								<i class="fas fa-camera-retro"></i>
+								<i class="fas fa-camera-retro circle-icon"></i>
 							</div>
 							<h4>Photography</h4>
 							<p>Postremo ad id indignitatis est ventum, ut cum peregrini ob formidatam haut ita dudum alimentorum inopiam.</p>

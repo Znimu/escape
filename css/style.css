@@ -68,6 +68,12 @@ header {
 	color: white;
 	background: none;
 	padding: 20px 50px;
+	transition: .2s all;
+	cursor: pointer;
+}
+.btn_header:hover {
+	background: white;
+	color: black;
 }
 
 main {
@@ -111,9 +117,14 @@ h5 {
 }
 
 .area3_main_area {
-	width: 530px;
+	margin: 0 15px;
+	width: 500px;
 	float: left;
 	margin-bottom: 30px;
+}
+
+.area3_main_area h4 {
+	margin-top: 25px;
 }
 
 .float_left-img_little {
@@ -124,6 +135,18 @@ h5 {
 
 .clear_both {
 	clear: both;
+}
+
+.circle-icon {
+	background: black;
+	width: 72px;
+	height: 72px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 100px;
+	vertical-align: middle;
+	padding: 30px;
+	color: white;
 }
 
 .div_mind {
