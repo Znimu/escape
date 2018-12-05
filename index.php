@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Projet Résumé Mois 1</title>
+        <title>Projet intégration</title>
 				<meta charset="UTF-8">
         <link rel='stylesheet' href="css/style.css" />
-				<link href="http://fonts.googleapis.com/css?family=Lato:150,400" rel="stylesheet" type="text/css">
+				<link href="http://fonts.googleapis.com/css?family=Lato:100,300" rel="stylesheet" type="text/css">
 				<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
     </head>
     <body>
@@ -13,18 +13,20 @@
 						<img src="img/img_header.jpg" width="100%" />
 					</div>
 					
-					<div class="title_site">
-						<i class="fas fa-paper-plane"></i> ESCAPE
-					</div>
-			
-					<div>
-						<ul class="liste_menu">
-								<li><a href="index.php">Home</a></li>
-								<li><a href="intro.php">Services</a></li>
-								<li><a href="linux.php">Clients</a></li>
-								<li><a href="wordpress.php">Team</a></li>
-								<li><a href="html.php">Contact</a></li>
-						</ul>
+					<div class="area0_main">
+						<div class="title_site">
+							<i class="fas fa-paper-plane"></i> ESCAPE
+						</div>
+				
+						<div>
+							<ul class="liste_menu">
+									<li><a href="index.php">Home</a></li>
+									<li><a href="intro.php">Services</a></li>
+									<li><a href="linux.php">Clients</a></li>
+									<li><a href="wordpress.php">Team</a></li>
+									<li><a href="html.php">Contact</a></li>
+							</ul>
+						</div>
 					</div>
 					
 					<center>
@@ -118,21 +120,35 @@
 							<h5>See what nice things our clients said about us</h5>
 						</center>
 						
-						<div class="div_mind">
-							<img src="img/img_people1.jpg" class="img_people float_left" />
-							
-							<p class="p_float_left">&ldquo;Postremo ad id indignitatis est ventum, ut cum peregrini ob formidatam haut ita dudum alimentorum inopiam.&rdquo;<br /><br />
-							<span class="div_mind_source">- Ut cum peregrini ob formidatam.</span></p>
-						</div>
+						<table class="tab_clients">
+							<tr>
+								<td class="area4_img_client_g">
+									<img src="img/img_people1.jpg" class="img_people" />
+								</td>
+								<td class="area4_img_bord_g">
+									<img src="img/img_citation_g.png"/>
+								</td>
+								<td class="area4_cadre">
+									<p>&ldquo;Postremo ad id indignitatis est ventum, ut cum peregrini ob formidatam haut ita dudum alimentorum inopiam.&rdquo;<br /><br />
+									<span class="div_mind_source">- Ut cum peregrini ob formidatam.</span></p>
+								</td>
+							</tr>
+						</table>
 						
-						<div class="clear_both"></div>
-						
-						<div class="div_mind">
-							<img src="img/img_people2.jpg" class="img_people float_right" />
-							
-							<p class="p_float_right">&ldquo;Postremo ad id indignitatis est ventum, ut cum peregrini ob formidatam haut ita dudum alimentorum inopiam.&rdquo;<br /><br />
-							<span class="div_mind_source">- Ut cum peregrini ob formidatam.</span></p>
-						</div>
+						<table class="tab_clients">
+							<tr>
+								<td class="area4_cadre">
+									<p>&ldquo;Postremo ad id indignitatis est ventum, ut cum peregrini ob formidatam haut ita dudum alimentorum inopiam.&rdquo;<br /><br />
+									<span class="div_mind_source">- Ut cum peregrini ob formidatam.</span></p>
+								</td>
+								<td class="area4_img_bord_d">
+									<img src="img/img_citation_d.png"/>
+								</td>
+								<td class="area4_img_client_d">
+									<img src="img/img_people2.jpg" class="img_people" />
+								</td>
+							</tr>
+						</table>
 					</div>
 					
 					<div class="area3_main">
@@ -148,6 +164,102 @@
 						<center>
 							<h1 class="h1_10_margin">Amazing <strong>Team</strong></h1>
 							<h5 class="grey_color">These wonderfull people make work enjoyable.</h5>
+							
+							<div class="area5_team">
+								<div class="img_team_div">
+									<img src="img/img_team2.jpg" class="img_team" />
+									<p class="p_strong">Awesome Name</p>
+									<p>Marketer</p>
+									<i class="fab fa-twitter social_icon"></i>
+									<i class="fab fa-facebook-f social_icon"></i>
+									<i class="fab fa-google-plus-g social_icon"></i>
+								</div>
+								
+								<div class="img_team_div">
+									<img src="img/img_team1.jpg" class="img_team" />
+									<p class="p_strong">Awesome Name</p>
+									<p>Coder</p>
+									<i class="fab fa-twitter social_icon"></i>
+									<i class="fab fa-facebook-f social_icon"></i>
+									<i class="fab fa-google-plus-g social_icon"></i>
+								</div>
+								
+								<div class="img_team_div">
+									<img src="img/img_team3.jpg" class="img_team" />
+									<p class="p_strong">Awesome Name</p>
+									<p>Graphic Designer</p>
+									<i class="fab fa-twitter social_icon"></i>
+									<i class="fab fa-google-plus-g social_icon"></i>
+								</div>
+							
+								<div class="clear_both"></div>
+								
+								<p class="p_under_team">Hac ex causa conlaticia stipe Valerius humatur ille Publicola et subsidiis amicorum mariti inops cum liberis uxor alitur Reguli.</p>
+							</div>
 						</center>
+					</div>
+					
+					<div class="area6_main">
+						<div class="area6_div">
+							<h1 class="h1_10_margin">Say <strong>Hello</strong></h1>
+							<p>Don't be shy, drop u an email and say hello ! We are a really nice bunch of people :)</p>
+							<table class="tab_hello">
+								</tr>
+									<td class="icone_center">
+										<i class="fas fa-mobile-alt"></i>
+									</td>
+									<td>
+										(416) 555 - 0000
+									</td>
+									<td class="icone_center">
+										<i class="fas fa-envelope"></i>
+									</td>
+									<td>
+										hello@escape.com
+									</td>
+								</tr>
+								<tr>
+									<td class="icone_center">
+										<i class="fab fa-twitter"></i>
+									</td>
+									<td>
+										@escape
+									</td>
+									<td class="icone_center">
+										<i class="fab fa-facebook-f"></i>
+									</td>
+									<td>
+										facebook.com/escape
+									</td>
+								</tr>
+								<tr>
+									<td class="icone_center">
+										<i class="fab fa-google-plus-g"></i>
+									</td>
+									<td>
+										plus.com/escape
+									</td>
+									<td class="icone_center">
+										<i class="fab fa-pinterest"></i>
+									</td>
+									<td>
+										pintereset.com/escape
+									</td>
+								</tr>
+							</table>
+						</div>
+						<div class="area6_div">
+							<input type="text" placeholder="Your Name *" /> 
+							<input type="text" placeholder="Your E-mail *" /> 
+							<textarea>Your Message *</textarea>
+						</div>
+						
+						<div class="clear_both"></div>
+						
+						<footer>
+							<center>
+								<p>&copy; 2014 Escape by FreebiesXpress - Made in Toronto</p>
+							</center>
+						</footer>
 					</div>
 				</main>
