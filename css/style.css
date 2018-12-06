@@ -130,13 +130,13 @@ h5 {
 }
 
 .area3_main_area h4 {
-	margin-top: 25px;
+	margin-top: 5px;
 }
 
 .float_left-img_little {
 	float: left;
 	margin-right: 20px;
-	font-size: 60px;
+	font-size: 40px;
 }
 
 .clear_both {
@@ -145,13 +145,14 @@ h5 {
 
 .circle-icon {
 	background: black;
-	width: 72px;
-	height: 72px;
+	box-sizing: border-box;
+	width: 70px;
+	height: 70px;
 	border-radius: 50%;
 	text-align: center;
 	line-height: 100px;
 	vertical-align: middle;
-	padding: 30px;
+	padding: 15px;
 	color: white;
 }
 
