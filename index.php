@@ -15,7 +15,9 @@
 					
 					<div class="area0_main">
 						<div class="title_site">
-							<i class="fas fa-paper-plane"></i> ESCAPE
+							<a href="index.php">
+								<i class="fas fa-paper-plane"></i> ESCAPE
+							</a>
 						</div>
 				
 						<div>

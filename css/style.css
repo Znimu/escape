@@ -25,6 +25,10 @@ header {
 	top: 40px;
 	font-weight: bold;
 }
+.title_site a {
+	color: white;
+	text-decoration: none;
+}
 
 .liste_menu {
 	position: absolute;
