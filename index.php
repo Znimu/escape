@@ -253,7 +253,7 @@
 						<div class="area6_div">
 							<input type="text" placeholder="Your Name *" /> 
 							<input type="text" placeholder="Your E-mail *" /> 
-							<textarea>Your Message *</textarea>
+							<textarea placeholder="Your Message *"></textarea>
 						</div>
 						
 						<div class="clear_both"></div>
