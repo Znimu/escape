@@ -21,7 +21,7 @@ header {
 
 .title_site {
 	position: relative;
-	margin-left: 0px;
+	margin-left: 100px;
 	top: 40px;
 	font-weight: bold;
 }
@@ -64,7 +64,7 @@ header {
 .btn_header {
 	position: relative;
 	margin-top: 80px;
-	margin-bottom: 120px;
+	margin-bottom: 140px;
 	border:1px solid white;
 	color: white;
 	background: none;
@@ -95,7 +95,7 @@ h5 {
 }
 
 .area0_main, .area1_main, .area2_main, .area3_main, .area4_main, .area5_main, .area6_main {
-	max-width: 1120px;
+	/*max-width: 800px;*/
 	margin: auto;
 	padding: 100px;
 }
@@ -186,6 +186,7 @@ h5 {
 	height: 200px;
 	border-radius: 200px;
 	margin-top: -20px;
+	border: 7px solid white;
 }
 
 .area5_main {
