@@ -127,8 +127,9 @@ h5 {
 }
 
 .area3_main_area {
+	box-sizing: border-box;
 	margin: 0 15px;
-	width: 500px;
+	width: 46%;
 	float: left;
 	margin-bottom: 30px;
 }
