@@ -16,7 +16,7 @@ header {
 #div_scroll {
 	position: fixed;
 	/*display: none;*/
-	top: 10px;
+	top: 100px;
 	left: 10px;
 	width: 100px;
 	height: 30px;
@@ -27,27 +27,32 @@ header {
 
 .background_header {
 	position: absolute;
+	top: 0px;
 	margin: 0px auto;
 	width: 100%;
 }
 
-.title_site {
-	position: relative;
-	margin-left: 100px;
+.div_liste_menu {
+	position: absolute;
 	top: 40px;
-	font-weight: bold;
+	left: 0;
+	right: 0;
+	height: 25px;
+	padding: 5px;
+	z-index: 100;
 }
-.title_site a {
-	color: white;
-	text-decoration: none;
+.liste_menu_fixed {
+	position: fixed;
+	top: 0px;
+	background: black;
+	border-bottom: 1px solid rgba(255, 255, 255, .5);
 }
 
 .liste_menu {
 	position: absolute;
 	right: 50px;
-	margin-top: 20px;
-	z-index: 100;
 }
+
 .liste_menu li {
 	display: inline;
 	margin-right: 30px;
@@ -62,6 +67,16 @@ header {
 
 .liste_menu li:hover {
 	border-bottom: 3px solid white;
+}
+
+.title_site {
+	position: absolute;
+	left: 50px;
+	font-weight: bold;
+}
+.title_site a {
+	color: white;
+	text-decoration: none;
 }
 
 .subtitle_header {
@@ -155,6 +170,10 @@ h5 {
 	width: 46%;
 	float: left;
 	margin-bottom: 30px;
+}
+
+.area3_main {
+	overflow: hidden;
 }
 
 .area3_main h4 {

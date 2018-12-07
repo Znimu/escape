@@ -51,6 +51,12 @@ $(window).on("scroll", function() {
 	var y = $(window).scrollTop();
 	$("#div_scroll").html(y);
 	
+	if (y > 70){
+		$(".div_liste_menu").addClass("liste_menu_fixed");
+	} else {
+		$(".div_liste_menu").removeClass("liste_menu_fixed");
+	}
+	
 	if (y > 300){
 		$(".area1_main").removeClass("hidden_area1");
 	} else {

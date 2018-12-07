@@ -16,13 +16,13 @@
 					</div>
 					
 					<div class="area0_main">
-						<div class="title_site">
-							<a href="index.php">
-								<i class="fas fa-paper-plane"></i> ESCAPE
-							</a>
-						</div>
-				
-						<div>
+						<div class="div_liste_menu">
+							<div class="title_site">
+								<a href="index.php">
+									<i class="fas fa-paper-plane"></i> ESCAPE
+								</a>
+							</div>
+					
 							<ul class="liste_menu">
 									<li><a href="index.php">Home</a></li>
 									<li><a href="intro.php">Services</a></li>
