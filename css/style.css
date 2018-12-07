@@ -50,7 +50,7 @@ header {
 
 .liste_menu {
 	position: absolute;
-	right: 50px;
+	right: 70px;
 }
 
 .liste_menu li {
@@ -71,7 +71,7 @@ header {
 
 .title_site {
 	position: absolute;
-	left: 50px;
+	left: 100px;
 	font-weight: bold;
 }
 .title_site a {
@@ -97,11 +97,11 @@ header {
 	position: relative;
 	margin-top: 80px;
 	margin-bottom: 140px;
-	border:1px solid white;
+	border: 1px solid white;
 	color: white;
 	background: none;
 	padding: 20px 50px;
-	transition: .2s all;
+	transition: .5s all;
 	cursor: pointer;
 }
 .btn_header:hover {
@@ -228,6 +228,13 @@ h5 {
 	border: 1px solid #e9e9e9;
 	padding: 40px 50px;
 }
+.area4_cadre_p1, .area4_cadre_p2 {
+	opacity: 1;
+	transition: 1s all;
+}
+.p_people_hidden {
+	opacity: 0;
+}
 
 .area4_img_bord_g img {
 	margin-right: -1px;
@@ -334,7 +341,8 @@ h5 {
 
 .p_under_team {
 	margin-top: 50px;
-	width: 600px;
+	max-width: 600px;
+	width: 100%;
 }
 
 .area6_main {
@@ -345,6 +353,7 @@ h5 {
 
 .area6_div {
 	width: 50%;
+	min-width: 400px;
 	display: inline-block;
 	float: left;
 }
@@ -370,6 +379,12 @@ h5 {
 	margin-bottom: 25px;
 	border-radius: 5px;
 	border: none;
+	box-shadow: 1px 1px 10px rgba(0,0,0,0);
+	outline: none;
+	transition: .5s all;
+}
+.area6_div input:focus, textarea:focus {
+	box-shadow: 1px 1px 10px rgba(0,0,0,.7);
 }
 
 .area6_div textarea {

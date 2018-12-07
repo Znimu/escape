@@ -1,6 +1,3 @@
-$( document ).ready(function() {
-	extraire();
-});
           
 function extraire() {
 	if( ++i < message.length ){  // On incremente i et on compare a la taille du message.
@@ -8,24 +5,32 @@ function extraire() {
 		// Note : le premier caractere de la chaine commence a l'index 0
 		if (message[i] == '\n'){
 			// Si saut de ligne on remplace par l'equivalent HTML : "<br/>".
-			document.getElementById("title_header").innerHTML += '<br/>';
+			document.getElementById(div_tmp).innerHTML += '<br/>';
 		} else {
 			// Si caractère espace
 			if (message[i] == ' ') {
-				document.getElementById("title_header").innerHTML += ' ';
+				document.getElementById(div_tmp).innerHTML += ' ';
 				i++
 			}
 			// Sinon on ajoute simplement le caractere a l'emplacement courant.
-			document.getElementById("title_header").innerHTML += message[i];
+			document.getElementById(div_tmp).innerHTML += message[i];
 		}
 	} else {
 		// Sinon on arrete le timer car le texte a fini de s'afficher.
-		clearTimeout(interval);
+		if (div_tmp === "subtitle_header") {
+			div_tmp = "title_header";
+			message = "YUP, WE CAN DO THAT.";
+			i = -1;
+		}
+		else
+			clearTimeout(interval);
 	}
 }
  
 var i = -1; // On incremente i en debut de fonction, il vaudra donc 0 a la premiere execution.
-var message = "YUP, WE CAN DO THAT."; // Message a afficher, on utilise le caractere \n pour le retour a la ligne.
+//var message = "YUP, WE CAN DO THAT."; // Message a afficher, on utilise le caractere \n pour le retour a la ligne.
+var message = "Can you build the website of my dreams ?";
+var div_tmp = "subtitle_header";
 var interval = setInterval(extraire, 120); // On declanche le timer et on le garde dans une variable pour l'arreter plus tard.
 
 $(".area1_main").addClass("hidden_area1");
@@ -40,6 +45,8 @@ $(".area3_main_area6").addClass("hidden_area3_2");
 
 $(".img_people1").addClass("img_people_hidden");
 $(".img_people2").addClass("img_people_hidden");
+$(".area4_cadre_p1").addClass("p_people_hidden");
+$(".area4_cadre_p2").addClass("p_people_hidden");
 
 $(".img_sponsor1").addClass("img_sponsor_hidden");
 $(".img_sponsor2").addClass("img_sponsor_hidden");
@@ -115,42 +122,46 @@ $(window).on("scroll", function() {
 		$(".area3_main_area6").addClass("hidden_area3_2");
 	}
 	
-	if (y > 1800){
+	if (y > 1700){
 		$(".img_people1").removeClass("img_people_hidden");
+		$(".area4_cadre_p1").removeClass("p_people_hidden");
 	}
 	else {
 		$(".img_people1").addClass("img_people_hidden");
+		$(".area4_cadre_p1").addClass("p_people_hidden");
 	}
 	
-	if (y > 2100){
+	if (y > 2000){
 		$(".img_people2").removeClass("img_people_hidden");
+		$(".area4_cadre_p2").removeClass("p_people_hidden");
 	}
 	else {
 		$(".img_people2").addClass("img_people_hidden");
+		$(".area4_cadre_p2").addClass("p_people_hidden");
 	}
 	
-	if (y > 2400){
+	if (y > 2300){
 		$(".img_sponsor1").removeClass("img_sponsor_hidden");
 	}
 	else {
 		$(".img_sponsor1").addClass("img_sponsor_hidden");
 	}
 	
-	if (y > 2450){
+	if (y > 2350){
 		$(".img_sponsor2").removeClass("img_sponsor_hidden");
 	}
 	else {
 		$(".img_sponsor2").addClass("img_sponsor_hidden");
 	}
 	
-	if (y > 2500){
+	if (y > 2400){
 		$(".img_sponsor3").removeClass("img_sponsor_hidden");
 	}
 	else {
 		$(".img_sponsor3").addClass("img_sponsor_hidden");
 	}
 	
-	if (y > 2550){
+	if (y > 2450){
 		$(".img_sponsor4").removeClass("img_sponsor_hidden");
 	}
 	else {

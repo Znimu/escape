@@ -34,7 +34,7 @@
 					</div>
 					
 					<center>
-						<div class="subtitle_header">Can you build the website of my dreams ?</div>
+						<div id="subtitle_header" class="subtitle_header"></div>
 						<div id="title_header" class="title_header"></div>
 					
 						<button class="btn_header">Learn more</button>
@@ -133,7 +133,7 @@
 									<img src="img/img_citation_g.png"/>
 								</td>
 								<td class="area4_cadre">
-									<p>&ldquo;Postremo ad id indignitatis est ventum, ut cum peregrini ob formidatam haut ita dudum alimentorum inopiam.&rdquo;<br /><br />
+									<p class="area4_cadre_p1">&ldquo;Postremo ad id indignitatis est ventum, ut cum peregrini ob formidatam haut ita dudum alimentorum inopiam.&rdquo;<br /><br />
 									<span class="div_mind_source">- Ut cum peregrini ob formidatam.</span></p>
 								</td>
 							</tr>
@@ -142,7 +142,7 @@
 						<table class="tab_clients">
 							<tr>
 								<td class="area4_cadre">
-									<p>&ldquo;Postremo ad id indignitatis est ventum, ut cum peregrini ob formidatam haut ita dudum alimentorum inopiam.&rdquo;<br /><br />
+									<p class="area4_cadre_p2">&ldquo;Postremo ad id indignitatis est ventum, ut cum peregrini ob formidatam haut ita dudum alimentorum inopiam.&rdquo;<br /><br />
 									<span class="div_mind_source">- Ut cum peregrini ob formidatam.</span></p>
 								</td>
 								<td class="area4_img_bord_d">
