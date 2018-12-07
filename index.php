@@ -9,6 +9,8 @@
     </head>
     <body>
         <header>
+					<div id="div_scroll">0</div>
+				
 					<div class="background_header">
 						<img src="img/img_header.jpg" width="100%" />
 					</div>
@@ -33,7 +35,7 @@
 					
 					<center>
 						<div class="subtitle_header">Can you build the website of my dreams ?</div>
-						<div class="title_header">YUP, WE CAN DO THAT.</div>
+						<div id="title_header" class="title_header"></div>
 					
 						<button class="btn_header">Learn more</button>
 					</center>
@@ -65,7 +67,7 @@
 					</div>
 					
 					<div class="area3_main">
-						<div class="area3_main_area">
+						<div class="area3_main_area1">
 							<div class="float_left-img_little">
 								<i class="fas fa-male circle-icon"></i>
 							</div>
@@ -73,7 +75,7 @@
 							<p>Postremo ad id indignitatis est ventum, ut cum peregrini ob formidatam haut ita dudum alimentorum inopiam.</p>
 						</div>
 						
-						<div class="area3_main_area">
+						<div class="area3_main_area2">
 							<div class="float_left-img_little">
 								<i class="fas fa-pencil-alt circle-icon"></i>
 							</div>
@@ -81,7 +83,7 @@
 							<p>Postremo ad id indignitatis est ventum, ut cum peregrini ob formidatam haut ita dudum alimentorum inopiam.</p>
 						</div>
 						
-						<div class="area3_main_area">
+						<div class="area3_main_area3">
 							<div class="float_left-img_little">
 								<i class="fas fa-mobile-alt circle-icon"></i>
 							</div>
@@ -89,7 +91,7 @@
 							<p>Postremo ad id indignitatis est ventum, ut cum peregrini ob formidatam haut ita dudum alimentorum inopiam.</p>
 						</div>
 						
-						<div class="area3_main_area">
+						<div class="area3_main_area4">
 							<div class="float_left-img_little">
 								<i class="fas fa-images circle-icon"></i>
 							</div>
@@ -97,7 +99,7 @@
 							<p>Postremo ad id indignitatis est ventum, ut cum peregrini ob formidatam haut ita dudum alimentorum inopiam.</p>
 						</div>
 						
-						<div class="area3_main_area">
+						<div class="area3_main_area5">
 							<div class="float_left-img_little">
 								<i class="fas fa-star-half-alt circle-icon"></i>
 							</div>
@@ -105,7 +107,7 @@
 							<p>Postremo ad id indignitatis est ventum, ut cum peregrini ob formidatam haut ita dudum alimentorum inopiam.</p>
 						</div>
 						
-						<div class="area3_main_area">
+						<div class="area3_main_area6">
 							<div class="float_left-img_little">
 								<i class="fas fa-camera-retro circle-icon"></i>
 							</div>
@@ -125,7 +127,7 @@
 						<table class="tab_clients">
 							<tr>
 								<td class="area4_img_client_g">
-									<img src="img/img_people1.jpg" class="img_people" />
+									<img src="img/img_people1.jpg" class="img_people1" />
 								</td>
 								<td class="area4_img_bord_g">
 									<img src="img/img_citation_g.png"/>
@@ -147,7 +149,7 @@
 									<img src="img/img_citation_d.png"/>
 								</td>
 								<td class="area4_img_client_d">
-									<img src="img/img_people2.jpg" class="img_people" />
+									<img src="img/img_people2.jpg" class="img_people2" />
 								</td>
 							</tr>
 						</table>
@@ -155,10 +157,10 @@
 					
 					<div class="area3_main">
 						<center>
-							<img src="img/img_sponsor1.jpg" class="img_sponsors" />
-							<img src="img/img_sponsor2.jpg" class="img_sponsors" />
-							<img src="img/img_sponsor3.jpg" class="img_sponsors" />
-							<img src="img/img_sponsor4.jpg" class="img_sponsors" />
+							<img src="img/img_sponsor1.jpg" class="img_sponsor1" />
+							<img src="img/img_sponsor2.jpg" class="img_sponsor2" />
+							<img src="img/img_sponsor3.jpg" class="img_sponsor3" />
+							<img src="img/img_sponsor4.jpg" class="img_sponsor4" />
 						</center>
 					</div>
 					
@@ -265,3 +267,7 @@
 						</footer>
 					</div>
 				</main>
+				<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+				<script src="js/script.js"></script>
+		</body>
+</html>
