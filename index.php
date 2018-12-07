@@ -171,7 +171,7 @@
 							
 							<div class="area5_team">
 								<div class="img_team_div">
-									<img src="img/img_team2.jpg" class="img_team" />
+									<img src="img/img_team2.jpg" class="img_team1" />
 									<p class="p_strong">Awesome Name</p>
 									<p>Marketer</p>
 									<i class="fab fa-twitter social_icon"></i>
@@ -180,7 +180,7 @@
 								</div>
 								
 								<div class="img_team_div">
-									<img src="img/img_team1.jpg" class="img_team" />
+									<img src="img/img_team1.jpg" class="img_team2" />
 									<p class="p_strong">Awesome Name</p>
 									<p>Coder</p>
 									<i class="fab fa-twitter social_icon"></i>
@@ -189,7 +189,7 @@
 								</div>
 								
 								<div class="img_team_div">
-									<img src="img/img_team3.jpg" class="img_team" />
+									<img src="img/img_team3.jpg" class="img_team3" />
 									<p class="p_strong">Awesome Name</p>
 									<p>Graphic Designer</p>
 									<i class="fab fa-twitter social_icon"></i>

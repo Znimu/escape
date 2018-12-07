@@ -280,10 +280,15 @@ h5 {
 	color: #999;
 }
 
-.img_team {
+.img_team1, .img_team2, .img_team3 {
 	margin: 80px 20px 20px 20px;
 	border: 7px solid white;
 	border-radius: 50%;
+	transition: 1s all;
+	transform: scale(1);
+}
+.img_team_hidden {
+	transform: scale(0);
 }
 
 .area5_team {

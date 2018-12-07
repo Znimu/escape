@@ -46,6 +46,10 @@ $(".img_sponsor2").addClass("img_sponsor_hidden");
 $(".img_sponsor3").addClass("img_sponsor_hidden");
 $(".img_sponsor4").addClass("img_sponsor_hidden");
 
+$(".img_team1").addClass("img_team_hidden");
+$(".img_team2").addClass("img_team_hidden");
+$(".img_team3").addClass("img_team_hidden");
+
 
 $(window).on("scroll", function() {
 	var y = $(window).scrollTop();
@@ -151,5 +155,26 @@ $(window).on("scroll", function() {
 	}
 	else {
 		$(".img_sponsor4").addClass("img_sponsor_hidden");
+	}
+	
+	if (y > 2950){
+		$(".img_team1").removeClass("img_team_hidden");
+	}
+	else {
+		$(".img_team1").addClass("img_team_hidden");
+	}
+	
+	if (y > 3000){
+		$(".img_team2").removeClass("img_team_hidden");
+	}
+	else {
+		$(".img_team2").addClass("img_team_hidden");
+	}
+	
+	if (y > 3050){
+		$(".img_team3").removeClass("img_team_hidden");
+	}
+	else {
+		$(".img_team3").addClass("img_team_hidden");
 	}
 });
