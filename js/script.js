@@ -1,4 +1,4 @@
-          
+/*        
 function extraire() {
 	if( ++i < message.length ){  // On incremente i et on compare a la taille du message.
 		// Si i ne depasse pas le nombre de caracteres dans le message
@@ -31,7 +31,7 @@ var i = -1; // On incremente i en debut de fonction, il vaudra donc 0 a la premi
 //var message = "YUP, WE CAN DO THAT."; // Message a afficher, on utilise le caractere \n pour le retour a la ligne.
 var message = "Can you build the website of my dreams ?";
 var div_tmp = "subtitle_header";
-var interval = setInterval(extraire, 120); // On declanche le timer et on le garde dans une variable pour l'arreter plus tard.
+var interval = setInterval(extraire, 120); // On declanche le timer et on le garde dans une variable pour l'arreter plus tard.*/
 
 $(".area1_main").addClass("hidden_area1");
 $(".area2_main").addClass("hidden_area1");
@@ -67,7 +67,7 @@ $(window).on("scroll", function() {
 	} else {
 		$(".div_liste_menu").removeClass("liste_menu_fixed");
 	}
-	
+
 	if (y > 300){
 		$(".area1_main").removeClass("hidden_area1");
 	} else {
@@ -168,24 +168,36 @@ $(window).on("scroll", function() {
 		$(".img_sponsor4").addClass("img_sponsor_hidden");
 	}
 	
-	if (y > 2950){
+	if (y > 2850){
 		$(".img_team1").removeClass("img_team_hidden");
 	}
 	else {
 		$(".img_team1").addClass("img_team_hidden");
 	}
 	
-	if (y > 3000){
+	if (y > 2900){
 		$(".img_team2").removeClass("img_team_hidden");
 	}
 	else {
 		$(".img_team2").addClass("img_team_hidden");
 	}
 	
-	if (y > 3050){
+	if (y > 2950){
 		$(".img_team3").removeClass("img_team_hidden");
 	}
 	else {
 		$(".img_team3").addClass("img_team_hidden");
 	}
+});
+
+// MENU //
+$("#bouton_menu").on("click", function() {
+	$("#bouton_menu").hide();
+	$("#bouton_menu_close").show();
+	$(".liste_menu").show();
+});
+$("#bouton_menu_close").on("click", function() {
+	$("#bouton_menu").show();
+	$("#bouton_menu_close").hide();
+	$(".liste_menu").hide();
 });

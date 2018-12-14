@@ -12,7 +12,7 @@
 					<div id="div_scroll">0</div>
 				
 					<div class="background_header">
-						<img src="img/img_header.jpg" width="100%" />
+						<!--<img src="img/img_header.jpg" height="100%" />-->
 					</div>
 					
 					<div class="area0_main">
@@ -23,6 +23,14 @@
 								</a>
 							</div>
 					
+							<div id="bouton_menu" class="bouton_menu">
+								<img src="img/Icone_menu.png" />
+							</div>
+					
+							<div id="bouton_menu_close" class="bouton_menu_close">
+								<img src="img/Icone_menu_close.png" />
+							</div>
+							
 							<ul class="liste_menu">
 									<li><a href="index.php">Home</a></li>
 									<li><a href="intro.php">Services</a></li>
@@ -34,16 +42,13 @@
 					</div>
 					
 					<center>
-						<div id="subtitle_header" class="subtitle_header"></div>
-						<div id="title_header" class="title_header"></div>
+						<div id="subtitle_header" class="subtitle_header">Can you build the website of my dreams ?</div>
+						<div id="title_header" class="title_header">YUP, WE CAN DO THAT.</div>
 					
 						<button class="btn_header">Learn more</button>
 					</center>
 					
 					<div class="clear_both"></div>
-					
-					<div id="icone_menu" class="icone_menu"></div>
-					<div id="icone_menu_close" class="icone_menu_close"></div>
         </header>
         
         <main>

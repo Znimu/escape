@@ -10,12 +10,13 @@ body {
 
 header {
 	margin: 0px auto;
-	max-width: 1400px;
+	height: 700px;
+	overflow: hidden;
 }
 
 #div_scroll {
 	position: fixed;
-	/*display: none;*/
+	display: none;
 	top: 100px;
 	left: 10px;
 	width: 100px;
@@ -27,9 +28,13 @@ header {
 
 .background_header {
 	position: absolute;
+	background-image: url("../img/img_header.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
 	top: 0px;
 	margin: 0px auto;
 	width: 100%;
+	height: 700px;
 }
 
 .div_liste_menu {
@@ -50,7 +55,7 @@ header {
 
 .liste_menu {
 	position: absolute;
-	right: 70px;
+	right: 370px;
 }
 
 .liste_menu li {
@@ -69,9 +74,24 @@ header {
 	border-bottom: 3px solid white;
 }
 
+.bouton_menu {
+	position: absolute;
+	display: none;
+	top: -8px;
+	right: 50px;
+	cursor: pointer;
+}
+.bouton_menu_close {
+	position: absolute;
+	display: none;
+	top: -8px;
+	right: 50px;
+	cursor: pointer;
+}
+
 .title_site {
 	position: absolute;
-	left: 100px;
+	left: 400px;
 	font-weight: bold;
 }
 .title_site a {
@@ -81,7 +101,7 @@ header {
 
 .subtitle_header {
 	position: relative;
-	margin-top: 180px;
+	margin-top: 250px;
 	font-size: 22px;
 }
 
@@ -127,9 +147,8 @@ h5 {
 }
 
 .area0_main, .area1_main, .area2_main, .area3_main, .area4_main, .area5_main, .area6_main {
-	/*max-width: 800px;*/
 	margin: auto;
-	padding: 100px;
+	padding: 100px 400px;
 }
 
 .area0_main {
@@ -391,8 +410,186 @@ h5 {
 	height: 210px;
 }
 
+.area6_div p {
+	padding-right: 15px;
+}
+
 footer {
 	margin-top: 100px;
 	padding: 30px;
 	border-top: 1px solid rgba(255, 255, 255, .2);
+}
+
+/* RESPONSIVE */
+@media (max-width: 1600px) {
+	.area0_main, .area1_main, .area2_main, .area3_main, .area4_main, .area5_main, .area6_main {
+		padding: 100px 300px;
+	}
+
+	.subtitle_header {
+		margin-top: 50px;
+	}
+
+	.liste_menu {
+		position: absolute;
+		right: 270px;
+	}
+
+	.title_site {
+		position: absolute;
+		left: 300px;
+		font-weight: bold;
+	}
+}
+@media (max-width: 1450px) {
+	.area0_main, .area1_main, .area2_main, .area3_main, .area4_main, .area5_main, .area6_main {
+		padding: 100px 200px;
+	}
+
+	.liste_menu {
+		position: absolute;
+		right: 170px;
+	}
+
+	.title_site {
+		position: absolute;
+		left: 200px;
+		font-weight: bold;
+	}
+}
+@media (max-width: 1300px) {
+	.area0_main, .area1_main, .area2_main, .area3_main, .area4_main, .area5_main, .area6_main {
+		padding: 100px 100px;
+	}
+
+	.liste_menu {
+		position: absolute;
+		right: 70px;
+	}
+
+	.title_site {
+		position: absolute;
+		left: 100px;
+		font-weight: bold;
+	}
+}
+@media (max-width: 1050px) {
+	.area0_main, .area1_main, .area2_main, .area3_main, .area4_main, .area5_main, .area6_main {
+		padding: 100px 50px;
+	}
+
+	.liste_menu {
+		position: absolute;
+		right: 20px;
+	}
+
+	.title_site {
+		position: absolute;
+		left: 50px;
+		font-weight: bold;
+	}
+}
+@media (max-width: 950px) {
+	.area0_main, .area1_main, .area2_main, .area3_main, .area4_main, .area5_main, .area6_main {
+		padding: 100px 25px;
+	}
+
+	.liste_menu {
+		position: absolute;
+		right: -5px;
+	}
+
+	.title_site {
+		position: absolute;
+		left: 25px;
+		font-weight: bold;
+	}
+}
+@media (max-width: 950px) {
+	.img_team_div {
+		margin: auto;
+		float: none;
+	}
+}
+	
+@media (max-width: 700px) {
+	.area3_main_area1, .area3_main_area2, .area3_main_area3, .area3_main_area4, .area3_main_area5, .area3_main_area6 {
+		width: 92%;
+	}
+}
+@media (max-width: 600px) {
+	.liste_menu {
+		display: none;
+		float: none;
+		right: 0px;
+		margin-top: 30px;
+		width: 100%;
+	}
+  
+  .liste_menu li {
+    display: block;
+    margin: 0;
+		padding: 0;
+    width: 100%;
+    background-color: #333;
+    border-top: 1px solid white;
+  }
+  .liste_menu li:hover {
+		border: none;
+    border-top: 1px solid white;
+  }
+  .liste_menu li a {
+    display: block; 
+    padding: 15px 0;
+    width: 100%;
+    height: 100%;
+		text-align: center;
+		transition: 1s all;
+  }
+  .liste_menu li a:hover {
+    text-decoration: none;
+		letter-spacing: 2px;
+  }
+	
+	.bouton_menu {
+		display: block;
+	}
+
+	.title_header {
+		font-size: 40px;
+	}
+}
+@media (max-width: 560px) {
+	.img_big {
+		display: none;
+	}
+}
+@media (max-width: 500px) {
+	.title_header {
+		font-size: 35px;
+	}
+}
+@media (max-width: 350px) {
+	.area1_main h1, .area2_main h1 {
+		font-size: 30px;
+	}
+}
+@media (max-width: 300px) {
+	.bouton_menu {
+		right: 20px;
+	}
+	.bouton_menu_close {
+		right: 20px;
+	}
+}
+@media (max-width: 250px) {
+	.title_site {
+		left: 10px;
+	}
+	.bouton_menu {
+		right: 10px;
+	}
+	.bouton_menu_close {
+		right: 10px;
+	}
 }
